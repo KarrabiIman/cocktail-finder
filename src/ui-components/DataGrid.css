@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: small;
+  }
+  
+  th {
+    background-color: dimgrey;
+  }
+  
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  tbody {
+    background-color: brown;
+  }

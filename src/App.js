@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CocktailSearch from "./ui-components/CocktailSearch";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2>Find a cocktail by name</h2>
+        <CocktailSearch />
       </header>
-    </div>
+    </main>
   );
 }
 
